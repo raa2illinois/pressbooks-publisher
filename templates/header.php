@@ -13,7 +13,8 @@
 		<?php } ?>
 		</div>
 		<div class="logo"><?php the_custom_logo(); ?></div>
-		<a class="brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"><a href="https://pb-sandbox.library.illinois.edu" class="iopn_brand"><img src="<?php bloginfo( 'template_url' ); ?>/images/iopn_color.png" alt="pressbooks-branding"/> <span><?php _e; ?></span></a><?php bloginfo( 'name' ); ?></a>
+		<a href="https://pb-sandbox.library.illinois.edu" class="iopn_brand"><img src="<?php bloginfo( 'template_url' ); ?>/images/iopn_color.png" alt="pressbooks-branding"/> <span><?php _e; ?></span></a>
+		<a class="brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
 		<h2><?php bloginfo( 'description' ); ?></h2>
 		<?php if ( get_theme_mod( 'pressbooks_publisher_intro_textbox' ) !== '' ) { ?>
 			<?php if ( 'one-column' == get_theme_mod( 'pressbooks_publisher_intro_text_col' ) ) { ?>
