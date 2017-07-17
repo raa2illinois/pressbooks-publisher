@@ -12,7 +12,7 @@
 			<a href="<?php echo wp_logout_url(); ?>" class="btn btn-primary btn-sm"><?php _e( 'Sign Out', 'pressbooks-publisher' ); ?></a>
 		<?php } ?>
 		</div>
-		<div class="logo"><?php the_custom_logo(); ?></div>
+		
 		<div class="right-block"><a class="brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"><a href="https://pb-sandbox.library.illinois.edu" class="iopn_brand"><img src="<?php bloginfo( 'template_url' ); ?>/images/iopn_color.png" alt="pressbooks-branding"/></a> <span><?php _e; ?></span><?php bloginfo( 'name' ); ?></a></div>
 		<h2><?php bloginfo( 'description' ); ?></h2>
 		<?php if ( get_theme_mod( 'pressbooks_publisher_intro_textbox' ) !== '' ) { ?>
