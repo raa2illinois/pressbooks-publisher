@@ -1,4 +1,6 @@
 <header class="banner">
+	<h1><a href="https://pb-sandbox.library.illinois.edu"><img src="pressbooks-publisher/assests/images/iopn_color.png" alt="IOPN Network">
+	<img src="pressbooks-publisher/assests/images/ui_library.png" alt="university branding"></img></img></a></h1>
   <div class="container">
     <div class="link-wrap">
 		<?php if ( is_user_logged_in() ) {
