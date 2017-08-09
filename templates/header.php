@@ -1,6 +1,9 @@
 <header class="banner">
-	<div><h1><a href="https://pb-sandbox.library.illinois.edu"><img align="left" src=="<?php echo get_template_directory_uri(); ?>/pressbooks-book/assests/images/iopn_color.png" alt="IOPN Network">
-	<img align="left" src="pressbooks-book/assests/images/ui_library.png" alt="university branding"></img></img></a></h1></div>
+	<div><h1><a href="https://pb-sandbox.library.illinois.edu"><img 
+	align="left" src=="<?php echo get_template_directory_uri(); ?>/wordpress/wp-content/themes/pressbooks-book/assets/images/iopn_color.png" 
+	alt="IOPN Network"></img>
+	<img align="left" src=="<?php echo get_template_directory_uri(); ?>/wordpress/wp-content/themes/pressbooks-publisher/assets/images/ui_library.png" 
+	alt="university branding"></img></a></h1></div>
   <div class="container">
     <div class="link-wrap">
 		<?php if ( is_user_logged_in() ) {
