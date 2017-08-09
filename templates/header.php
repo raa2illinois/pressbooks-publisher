@@ -1,8 +1,8 @@
 <header class="banner">
 	<div><h1><a href="https://pb-sandbox.library.illinois.edu"><img 
-	align="left" src=="<?php echo get_template_directory_uri(); ?>/assets/images/iopn_color.png" 
+	align="left" src="<?php echo get_template_directory_uri(); ?>/assets/images/iopn_color.png" 
 	alt="IOPN Network"></img>
-	<img align="left" src=="<?php echo get_template_directory_uri(); ?>/assets/images/ui_library.png" 
+	<img align="left" src="<?php echo get_template_directory_uri(); ?>/assets/images/ui_library.png" 
 	alt="university branding"></img></a></h1></div>
   <div class="container">
     <div class="link-wrap">
